@@ -9,15 +9,31 @@ body {
 }
 
 header {
-    background: #e1e9ee;  /* Blu tipico di LinkedIn */
+    background: #0077b5;  /* Blu tipico di LinkedIn */
     color: #fff;
-    padding: 20px 0;
+    padding: 20px;
     text-align: center;
+    border-bottom: 5px solid #005582; /* Colore scuro per il bordo inferiore */
 }
 
 header h1 {
     margin: 0;
     font-size: 2.5em;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
 }
 
 section {
@@ -62,12 +78,28 @@ ul li:hover {
 
 footer {
     text-align: center;
-    padding: 10px 0;
+    padding: 20px;
     background: #0077b5;  /* Blu tipico di LinkedIn */
     color: #fff;
-    position: fixed;
+    border-top: 5px solid #005582; /* Colore scuro per il bordo superiore */
+    position: relative;
     bottom: 0;
     width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
 
 @media (min-width: 768px) {
