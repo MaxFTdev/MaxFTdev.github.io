@@ -24,6 +24,7 @@ section {
     margin: 20px;
     padding: 20px;
     background: #fff;
+    border: 2px solid #0077b5; /* Bordo blu LinkedIn */
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
