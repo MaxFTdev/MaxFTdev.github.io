@@ -13,7 +13,7 @@ header {
     color: #fff;
     padding: 20px;
     text-align: center;
-    border-bottom: 5px solid #005582; /* Colore scuro per il bordo inferiore */
+    border-bottom: 2px solid #d0dae1; /* Grigio chiaro per il bordo inferiore */
 }
 
 header h1 {
@@ -40,7 +40,7 @@ section {
     margin: 20px;
     padding: 20px;
     background: #fff;
-    border: 2px solid #0077b5; /* Bordo blu LinkedIn */
+    border: 1px solid #d0dae1; /* Bordo grigio chiaro */
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -81,7 +81,7 @@ footer {
     padding: 20px;
     background: #0077b5;  /* Blu tipico di LinkedIn */
     color: #fff;
-    border-top: 5px solid #005582; /* Colore scuro per il bordo superiore */
+    border-top: 2px solid #d0dae1; /* Grigio chiaro per il bordo superiore */
     position: relative;
     bottom: 0;
     width: 100%;
