@@ -4,14 +4,14 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #f3f2ef;
+    color: #283e4a;
 }
 
 header {
-    background: #333;
+    background: #0077b5;
     color: #fff;
-    padding: 10px 0;
+    padding: 20px 0;
     text-align: center;
 }
 
@@ -25,14 +25,14 @@ section {
     padding: 20px;
     background: #fff;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-    color: #333;
+    color: #0077b5;
     font-size: 2em;
     margin-bottom: 10px;
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid #0077b5;
     padding-bottom: 5px;
 }
 
@@ -42,7 +42,7 @@ ul {
 }
 
 ul li {
-    background: #e2e2e2;
+    background: #e1e9ee;
     margin: 5px 0;
     padding: 10px;
     border-radius: 5px;
@@ -51,31 +51,19 @@ ul li {
 
 ul li a {
     text-decoration: none;
-    color: #333;
+    color: #0077b5;
     font-weight: bold;
 }
 
 ul li:hover {
-    background: #d4d4d4;
+    background: #d0dae1;
 }
 
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #333;
+    background: #0077b5;
     color: #fff;
     position: fixed;
     bottom: 0;
-    width: 100%;
-}
-
-@media (min-width: 768px) {
-    body {
-        margin: 20px;
-    }
-
-    section {
-        margin: 20px auto;
-        max-width: 800px;
-    }
-}
+    width: 100
